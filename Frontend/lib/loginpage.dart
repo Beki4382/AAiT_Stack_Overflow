@@ -70,7 +70,7 @@ class _LogInScreenState extends State<LogInScreen> {
                     image: AssetImage('assets/stack8.png'),
                     fit: BoxFit.contain),
               ),
-              // End ... Image at head
+              // End ...This part will end our Image at head
 
               // Start ... login header and fill text start
               Container(

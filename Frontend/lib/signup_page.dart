@@ -113,7 +113,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
           ),
           // end .. container of fill form text
 
-          // user name input field
+          // inputtext fiel field for user name
           Container(
             margin:
                 const EdgeInsets.only(left: 30, right: 30, top: 20, bottom: 10),

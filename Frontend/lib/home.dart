@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 } else if (snapshot.hasError) {
                   print(snapshot.data);
                   return Text(snapshot.error.toString());
-                } else {
+           } else {
                   return TextButton(
                       onPressed: () {
                         Navigator.pushNamed(context, '/login');
@@ -79,3 +79,4 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+

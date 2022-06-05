@@ -10,7 +10,7 @@ class QuestionPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner:false,
       home: SafeArea(
         child: Scaffold(
           appBar: AppBar(
@@ -37,7 +37,7 @@ class QuestionPage extends StatelessWidget {
                   Align(
                     alignment: Alignment.center,
                     child: Container(
-                      width: 450,
+                      width: 460,
                       height: 800,
                       child: Column(
                         children: [
@@ -52,7 +52,7 @@ class QuestionPage extends StatelessWidget {
                           Center(
                             child: Column(
                               children: [
-                                DisplayText('Title', 20, FontWeight.bold, TextDecoration.none, Alignment.topLeft),
+                                DisplayText('Title', 20, FontWeight.bold,TextDecoration.none,Alignment.topLeft),
                                 Gap(0, 10),
                                 DisplayTextField(400, 50, 5, 0, 20, 20, 1, 1, 'your title here', false),
                                 Gap(0, 10),
@@ -67,7 +67,7 @@ class QuestionPage extends StatelessWidget {
                             ),
                           ),
                           Gap(0, 10),
-                          DisplayButton(30, 100,Alignment.bottomRight, 'Submit',FontWeight.normal,15)
+                          DisplayButton(30, 100,Alignment.bottomRight,'Submit',FontWeight.normal,15)
                         ],
                       ),
                     ),

@@ -17,4 +17,4 @@ export './component/app_bar.dart';
 export './component/circular_widget.dart';
 export './component/darwer.dart';
 export './core/theme.dart';
-export 'auth/edit_profile_screen.dart';
+
